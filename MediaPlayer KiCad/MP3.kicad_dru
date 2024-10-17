@@ -1,0 +1,3 @@
+(version 1)
+(rule "Hole to Hole Clearance"
+	(constraint hole_to_hole (min 12mil)))

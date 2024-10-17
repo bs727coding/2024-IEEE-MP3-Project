@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit MAX98357A I2S")(type "KiCad")(uri "${KIPRJMOD}/Adafruit MAX98357A I2S.pretty")(options "")(descr ""))
+  (lib (name "PJ324M")(type "KiCad")(uri "${KIPRJMOD}/PJ324M.pretty")(options "")(descr ""))
+)
