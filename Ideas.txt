@@ -1,0 +1,18 @@
+What we want to implement:
+* designates 1st gen
+
+Sharepoint (cast to Chromecast, Apple airplay, ect.)
+*BLDC motor/encoder (selection/volume control)
+*SD card (storage)
+Emulate USB Mass Storage
+*Screen - 2-3 inches, full color
+Video?
+No internal speaker
+Charge circuitry integrated MCU
+LiPo or Lion
+*IO Buttons: 4
+*Single pole triple throw power switch: Off, On, Playback(on but buttons disabled)
+Brightness control (possibly via POT and not through ESP32)
+Battery indicator (Neopixel)
+SOC?
+*TRS port (headphone jack)
