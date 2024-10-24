@@ -15,4 +15,4 @@ LiPo or Lion
 Brightness control (possibly via POT and not through ESP32)
 Battery indicator (Neopixel)
 SOC?
-*TRS port (headphone jack)
+*TRS port (headphone jack, with plugin/unplug detection)
