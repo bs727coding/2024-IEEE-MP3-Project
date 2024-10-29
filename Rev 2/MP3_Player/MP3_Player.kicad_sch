@@ -3203,6 +3203,12 @@
 		(uuid "1bbdde11-9fe2-494a-b18c-8fcc4d547b9d")
 	)
 	(junction
+		(at 275.59 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f45b5f3-9457-4e9c-aea5-fed0330e7403")
+	)
+	(junction
 		(at 248.92 25.4)
 		(diameter 0)
 		(color 57 191 251 1)
@@ -3320,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 12.7) (xy 275.59 45.72)
+			(xy 275.59 12.7) (xy 275.59 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3497,6 +3503,17 @@
 			(type default)
 		)
 		(uuid "63991fcb-aaff-483d-a7ef-5366b1709540")
+	)
+	(wire
+		(pts
+			(xy 275.59 30.48) (xy 275.59 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 57 191 251 1)
+		)
+		(uuid "6e2186fc-f758-44cc-b79f-06384298794f")
 	)
 	(wire
 		(pts
@@ -3887,6 +3904,39 @@
 		)
 		(uuid "fe006265-d69b-403d-ad3a-470e81819099")
 	)
+	(label "VDD"
+		(at 67.31 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54778c90-24df-4507-bba7-3beba1922cce")
+	)
+	(label "VDD"
+		(at 265.43 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a616a960-63d8-4849-abed-a39755e6e01c")
+	)
+	(label "VDD"
+		(at 172.72 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe5dada5-fa8f-4a9d-93e0-b396fc6098d5")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 238.76 44.45 180)
@@ -4018,6 +4068,76 @@
 			(project "MP3_Player"
 				(path "/caa12bce-cf4c-4041-a9a3-d1ebb8f4f00b"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 271.78 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "076bc96e-a877-4243-bfc2-f9a3f3f953cf")
+		(property "Reference" "R8"
+			(at 270.5099 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 273.0499 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 271.78 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 271.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5262d885-4e08-4a2c-9244-d835ed31b46c")
+		)
+		(pin "2"
+			(uuid "f4de0887-26ed-4149-a519-f19a0e20b6f9")
+		)
+		(instances
+			(project "MP3_Player"
+				(path "/caa12bce-cf4c-4041-a9a3-d1ebb8f4f00b"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5816,6 +5936,72 @@
 			(project ""
 				(path "/caa12bce-cf4c-4041-a9a3-d1ebb8f4f00b"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f20d26f7-95b1-424f-a61b-5e7b7177b1d3")
+		(property "Reference" "#PWR08"
+			(at 261.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 262.89 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54406eb8-d57b-4187-aedd-4c21af81011f")
+		)
+		(instances
+			(project "MP3_Player"
+				(path "/caa12bce-cf4c-4041-a9a3-d1ebb8f4f00b"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
