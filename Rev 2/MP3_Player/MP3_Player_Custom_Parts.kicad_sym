@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Subsystem Main:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD"
+		(property "Footprint" "MP3_Player_Custom_Footprints:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD"
 			(at 1.016 0 90)
 			(effects
 				(font
@@ -530,6 +530,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "Gain"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GAIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -8.89 -5.08 0)
 				(length 2.54)
@@ -541,24 +559,6 @@
 					)
 				)
 				(number "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "Gain"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "Gain"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -612,7 +612,7 @@
 						)
 					)
 				)
-				(number "Vin"
+				(number "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -714,24 +714,6 @@
 					)
 				)
 				(number "0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -35.56 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1063,24 +1045,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -35.56 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 35.56 270)
 				(length 2.54)
@@ -1091,7 +1055,7 @@
 						)
 					)
 				)
-				(number "3V3"
+				(number "3v"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1174,6 +1138,42 @@
 			(pin passive line
 				(at 0 -35.56 90)
 				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35.56 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -35.56 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font

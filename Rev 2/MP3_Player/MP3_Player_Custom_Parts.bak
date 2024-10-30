@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Subsystem Main:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD"
+		(property "Footprint" "MP3_Player_Custom_Footprints:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD"
 			(at 1.016 0 90)
 			(effects
 				(font
@@ -530,6 +530,24 @@
 					)
 				)
 			)
+			(pin input line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "Gain"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GAIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -8.89 -5.08 0)
 				(length 2.54)
@@ -541,24 +559,6 @@
 					)
 				)
 				(number "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "Gain"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "Gain"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -612,7 +612,7 @@
 						)
 					)
 				)
-				(number "Vin"
+				(number "VIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -644,7 +644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32"
+		(property "Footprint" "MP3_Player_Custom_Footprints:Wemos Lolin32 Lite v1.0.0"
 			(at 0 -38.1 0)
 			(effects
 				(font
@@ -1063,24 +1063,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -35.56 90)
-				(length 2.54) hide
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 35.56 270)
 				(length 2.54)
@@ -1091,7 +1073,7 @@
 						)
 					)
 				)
-				(number "3V3"
+				(number "3v"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1146,6 +1128,24 @@
 					)
 				)
 				(number "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -35.56 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
