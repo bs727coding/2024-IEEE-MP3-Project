@@ -4070,16 +4070,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 30.48) (xy 113.03 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3bb5d6-277d-46cd-95c3-f2b2b69c2c95")
-	)
-	(wire
-		(pts
 			(xy 172.72 29.21) (xy 172.72 45.72)
 		)
 		(stroke
@@ -4222,6 +4212,16 @@
 			(type default)
 		)
 		(uuid "e3d1a162-7781-40f4-967f-2b12804c9af5")
+	)
+	(wire
+		(pts
+			(xy 49.53 125.73) (xy 58.42 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e428a6eb-b834-464f-a488-35a96856e79b")
 	)
 	(wire
 		(pts
@@ -5543,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 123.19 27.94 270)
+		(at 68.58 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5552,7 +5552,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a7aa37e-1d09-405c-b9a7-732b2007148d")
 		(property "Reference" "#PWR06"
-			(at 119.38 27.94 0)
+			(at 64.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5561,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 127 27.9399 90)
+			(at 72.39 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 27.94 0)
+			(at 68.58 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 27.94 0)
+			(at 68.58 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5588,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 123.19 27.94 0)
+			(at 68.58 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5765,7 +5765,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 99.06 30.48 0)
+		(at 44.45 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5774,7 +5774,7 @@
 		(fields_autoplaced yes)
 		(uuid "52ddff91-26d1-46f6-8db9-48829b70a896")
 		(property "Reference" "To_Battery_Charger_Of_ESP_32"
-			(at 99.695 25.4 0)
+			(at 45.085 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +5782,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 99.695 27.94 0)
+			(at 45.085 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +5790,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1-A_1x02_P2.50mm_Vertical"
-			(at 99.06 30.48 0)
+			(at 44.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 30.48 0)
+			(at 44.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +5808,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 99.06 30.48 0)
+			(at 44.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,10 +6388,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e00ea00-748f-406e-ab5c-321853780fe7")
 		(property "Reference" "SW6"
-			(at 118.11 36.83 0)
+			(at 63.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +6740,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 104.14 33.02 270)
+		(at 49.53 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6750,7 +6749,7 @@
 		(fields_autoplaced yes)
 		(uuid "85970827-42f0-4ad7-adbb-3ebc4f6b642d")
 		(property "Reference" "#PWR015"
-			(at 100.33 33.02 0)
+			(at 45.72 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +6758,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 107.95 33.0199 90)
+			(at 53.34 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 33.02 0)
+			(at 49.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 33.02 0)
+			(at 49.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6786,7 +6785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 104.14 33.02 0)
+			(at 49.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,7 +7764,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 118.11 30.48 0)
+		(at 63.5 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7774,7 +7773,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1c3a560-934f-425b-b7a0-a33b2847f482")
 		(property "Reference" "SW4"
-			(at 118.11 21.59 0)
+			(at 63.5 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,7 +7781,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 118.11 24.13 0)
+			(at 63.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +7789,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
-			(at 118.11 30.48 0)
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +7798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 38.1 0)
+			(at 63.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +7807,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 118.11 30.48 0)
+			(at 63.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
