@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MP3_Player_Custom_Parts")(type "KiCad")(uri "${KIPRJMOD}/MP3_Player_Custom_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-S3-WROOM-1-N16R8")(type "KiCad")(uri "${KIPRJMOD}/ESP32-S3-WROOM-1-N16R8.kicad_sym")(options "")(descr ""))
+)
