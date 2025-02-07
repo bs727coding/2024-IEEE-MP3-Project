@@ -645,7 +645,7 @@
 			)
 		)
 		(property "Footprint" "ESP32 camera and friends:UART_FTDI"
-			(at 0.254 9.144 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
