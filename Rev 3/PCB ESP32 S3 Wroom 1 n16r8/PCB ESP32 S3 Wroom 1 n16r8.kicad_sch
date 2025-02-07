@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "caa12bce-cf4c-4041-a9a3-d1ebb8f4f00b")
 	(paper "A4")
+	(title_block
+		(title "BYU IEEE MP3 Player 2024-2025")
+		(rev "3")
+	)
 	(lib_symbols
 		(symbol "Connector_Audio:AudioJack3_SwitchT"
 			(exclude_from_sim no)
