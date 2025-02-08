@@ -6436,7 +6436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MP3_Player_Custom_Footprints:UART_FTDI"
 			(at 77.47 22.86 0)
 			(effects
 				(font
@@ -6506,7 +6506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ESP32 camera and friends:UART_FTDI"
+		(property "Footprint" ""
 			(at 95.504 112.776 0)
 			(effects
 				(font

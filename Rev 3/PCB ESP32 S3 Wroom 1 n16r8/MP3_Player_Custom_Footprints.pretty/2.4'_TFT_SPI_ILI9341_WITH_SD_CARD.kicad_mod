@@ -435,4 +435,15 @@
 			)
 		)
 	)
+	(model "${KIPRJMOD}/MP3_Player_Custom_Footprints.pretty/ILI9341 Screen v3.step"
+		(offset
+			(xyz -0.889 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )
