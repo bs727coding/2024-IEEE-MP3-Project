@@ -10413,7 +10413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL6060-XXX"
 			(at 115.57 73.66 0)
 			(effects
 				(font
