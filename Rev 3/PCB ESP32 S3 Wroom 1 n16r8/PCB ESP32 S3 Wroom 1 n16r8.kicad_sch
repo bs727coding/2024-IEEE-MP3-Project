@@ -6658,7 +6658,7 @@
 				)
 			)
 		)
-		(property "Value" "SB120"
+		(property "Value" "1A, 40 V Schottky rectifier"
 			(at 139.3825 73.66 0)
 			(effects
 				(font
@@ -6666,7 +6666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 139.7 81.915 0)
 			(effects
 				(font
