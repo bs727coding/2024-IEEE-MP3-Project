@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "keyswitches")(type "KiCad")(uri "${KIPRJMOD}/keyswitches.pretty")(options "")(descr ""))
   (lib (name "MP3_Player_Custom_Footprints")(type "KiCad")(uri "${KIPRJMOD}/MP3_Player_Custom_Footprints.pretty")(options "")(descr ""))
+  (lib (name "LM2675-3.3")(type "KiCad")(uri "${KIPRJMOD}/LM2675-3.3")(options "")(descr ""))
 )

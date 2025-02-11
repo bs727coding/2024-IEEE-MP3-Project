@@ -1,4 +1,4 @@
-24227420020322541
+24229263539780152
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65239,6 +65239,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM2675-3.3
+DIP794W53P254L959H508Q8N
+DIP-08
+Integrated Circuit
+0
+8
+8
 MP3_Player_Custom_Footprints
 2.4'_TFT_SPI_ILI9341_WITH_SD_CARD
 
