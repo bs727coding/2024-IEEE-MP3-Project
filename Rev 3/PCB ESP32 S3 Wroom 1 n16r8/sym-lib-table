@@ -3,4 +3,5 @@
   (lib (name "MP3_Player_Custom_Parts")(type "KiCad")(uri "${KIPRJMOD}/MP3_Player_Custom_Parts.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-S3-WROOM-1-N16R8")(type "KiCad")(uri "${KIPRJMOD}/ESP32-S3-WROOM-1-N16R8.kicad_sym")(options "")(descr ""))
   (lib (name "LM2675N-3_3_NOPB")(type "KiCad")(uri "${KIPRJMOD}/LM2675-3.3/LM2675N-3_3_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "LMR54410DBVR")(type "KiCad")(uri "${KIPRJMOD}/LMR54410DBVR/LMR54410DBVR.kicad_sym")(options "")(descr ""))
 )

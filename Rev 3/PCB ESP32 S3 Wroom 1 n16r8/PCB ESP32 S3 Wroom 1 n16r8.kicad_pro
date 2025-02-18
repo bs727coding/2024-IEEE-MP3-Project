@@ -431,12 +431,14 @@
       "keyswitches",
       "MP3_Player_Custom_Footprints",
       "ESP32_and_friends",
-      "LM2675-3.3"
+      "LM2675-3.3",
+      "LMR54410DBVR"
     ],
     "pinned_symbol_libs": [
       "MP3_Player_Custom_Parts",
       "ESP32-S3-WROOM-1-N16R8",
-      "LM2675N-3_3_NOPB"
+      "LM2675N-3_3_NOPB",
+      "LMR54410DBVR"
     ]
   },
   "meta": {
