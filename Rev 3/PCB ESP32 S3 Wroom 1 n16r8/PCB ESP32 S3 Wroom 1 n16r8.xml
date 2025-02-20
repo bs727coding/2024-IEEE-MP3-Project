@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\swimn\OneDrive\Documents\College\IEEE\MP3 Player\2024-IEEE-MP3-Project\Rev 3\PCB ESP32 S3 Wroom 1 n16r8\PCB ESP32 S3 Wroom 1 n16r8.kicad_sch</source>
+    <date>2025-02-19T19:02:20-0700</date>
+    <tool>Eeschema 8.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BYU IEEE MP3 Player 2024-2025</title>
+        <company/>
+        <rev>3</rev>
+        <date/>
+        <source>PCB ESP32 S3 Wroom 1 n16r8.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="1">
+      <value>~</value>
+      <footprint>MP3_Player_Custom_Footprints:UART_FTDI</footprint>
+      <fields>
+        <field name="Footprint">MP3_Player_Custom_Footprints:UART_FTDI</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MP3_Player_Custom_Parts" part="UART_FTDI" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3412094e-eb35-490f-8ab9-707a5b15f5a0</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>.1 uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a2937f2-d653-4e88-9624-cb6b0f1e1802</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2.2 uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6eefc80-1e57-43bc-8672-2a8e0a27dbab</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a7f1e7f-57c3-46d0-b214-eca2acc20ae5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Flyback Diode</value>
+      <footprint>Diode_THT:D_A-405_P7.62mm_Horizontal</footprint>
+      <description>Diode</description>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_THT:D_A-405_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61ffa77f-90de-4b51-a20b-1938f2f4e12c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack3_SwitchT</value>
+      <footprint>Connector_Audio:Jack_3.5mm_CUI_SJ1-3524N_Horizontal</footprint>
+      <description>Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)</description>
+      <fields>
+        <field name="Footprint">Connector_Audio:Jack_3.5mm_CUI_SJ1-3524N_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)</field>
+      </fields>
+      <libsource lib="Connector_Audio" part="AudioJack3_SwitchT" description="Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="audio jack receptacle stereo headphones phones TRS connector"/>
+      <property name="ki_fp_filters" value="Jack*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f59aecdd-6b54-4ec1-a8f0-e1e624a39184</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>15uH</value>
+      <footprint>Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9d7a3c8-b166-4e79-804e-cc392123f6f2</tstamps>
+    </comp>
+    <comp ref="L_SPKR1">
+      <value>~</value>
+      <footprint>MP3_Player_Custom_Footprints:MAX98357 I2C Audio Driver</footprint>
+      <fields>
+        <field name="Footprint">MP3_Player_Custom_Footprints:MAX98357 I2C Audio Driver</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MP3_Player_Custom_Parts" part="Adafruit_MAX98357" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50bfba25-e184-4d03-bdb5-9891918563af</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Haptic Feedback</value>
+      <footprint>TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal</footprint>
+      <description>DC Motor</description>
+      <fields>
+        <field name="Footprint">TerminalBlock_RND:TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">DC Motor</field>
+      </fields>
+      <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="DC Motor"/>
+      <property name="ki_fp_filters" value="PinHeader*P2.54mm* TerminalBlock*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>365b4c1f-4fb4-4277-90ac-2dcaef68fb7e</tstamps>
+    </comp>
+    <comp ref="Primary Rotary Encoder1">
+      <value>RotaryEncoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <fields>
+        <field name="Footprint">Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Rotary encoder, dual channel, incremental quadrate outputs, with switch</field>
+      </fields>
+      <libsource lib="Device" part="RotaryEncoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="rotary switch encoder switch push button"/>
+      <property name="ki_fp_filters" value="RotaryEncoder*Switch*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a575314-2fb2-4c9d-824c-b3ff3ec497b8</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BS170</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</datasheet>
+      <description>0.5A Id, 60V Vds, N-Channel MOSFET, TO-92</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BS170-D.PDF</field>
+        <field name="Description">0.5A Id, 60V Vds, N-Channel MOSFET, TO-92</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BS170" description="0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="TO?92*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2109ad0c-dd68-431b-8d68-08f38990b52f</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8542a6f0-993f-452e-86b9-79919997bf0e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>054fc2ab-2016-4857-bc44-3dfa30ecc116</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2be5508-e016-4823-8980-35b244d60790</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1def8c02-770a-47cd-ab86-115d51c98386</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df6e3d43-3b40-4f7f-a514-5bbcff0829bf</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef902cd1-ee23-4dee-ba1f-4288ae30cf8c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>0-100Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b929d7b9-c9d0-4278-9de3-6eee7e0a3ad0</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bce13e17-b56a-4adf-8eff-ff2f14c503f9</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08c99f7b-c1a9-4cf7-afbc-725ec51f944c</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0d6af32-c28d-447d-a23b-586870fa7df4</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>862a9c60-13de-4a50-803b-0f2967c5ab84</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e42e9691-108f-4acc-89e3-9136508ecbff</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a892eb0-0433-42fb-ac3d-6aeaec5ef1cc</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>69.8K</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_01005_0402Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a8ec065-1655-48ea-96a7-14026aac175b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>22.1K</value>
+      <footprint>Resistor_SMD:R_01005_0402Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_01005_0402Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4ee2bc6-b701-4227-bc8f-da6926f14e63</tstamps>
+    </comp>
+    <comp ref="RSPKR1">
+      <value>~</value>
+      <footprint>MP3_Player_Custom_Footprints:MAX98357 I2C Audio Driver</footprint>
+      <fields>
+        <field name="Footprint">MP3_Player_Custom_Footprints:MAX98357 I2C Audio Driver</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MP3_Player_Custom_Parts" part="Adafruit_MAX98357" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe5bdb64-3d41-4096-b69c-974847cb8be2</tstamps>
+    </comp>
+    <comp ref="Screen&amp;SDCardReader1">
+      <value>~</value>
+      <footprint>MP3_Player_Custom_Footprints:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD</footprint>
+      <fields>
+        <field name="Footprint">MP3_Player_Custom_Footprints:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MP3_Player_Custom_Parts" part="2.4'_TFT_SPI_ILI9341_WITH_SD_CARD" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59860a92-d539-41bc-9eb2-6a48a66ca522</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>Home</value>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="Footprint">keyswitches:Kailh_socket_PG1350</field>
+        <field name="Datasheet"/>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59f5285d-91f2-4697-937d-2bb414e5b0ff</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>Back</value>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="Footprint">keyswitches:Kailh_socket_PG1350</field>
+        <field name="Datasheet"/>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6730527d-becf-40b4-96ca-4eeea4c66125</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>Play/Pause</value>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="Footprint">keyswitches:Kailh_socket_PG1350</field>
+        <field name="Datasheet"/>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e82daf4-7fc7-4c26-85a5-ae2c9d2fc623</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>Power</value>
+      <footprint>Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</footprint>
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</field>
+        <field name="Datasheet"/>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1c3a560-934f-425b-b7a0-a33b2847f482</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>Menu</value>
+      <footprint>keyswitches:Kailh_socket_PG1350</footprint>
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <fields>
+        <field name="Footprint">keyswitches:Kailh_socket_PG1350</field>
+        <field name="Datasheet"/>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bf21652-31ec-4b02-9324-9b2ce1c550e7</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>Hold</value>
+      <footprint>Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</footprint>
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</field>
+        <field name="Datasheet"/>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e00ea00-748f-406e-ab5c-321853780fe7</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>BOOT_MODE</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_PUSH_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23f7570f-43cb-4eb8-8c3e-01cc23ab3914</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LMR54410DBVR</value>
+      <footprint>LMR54410DBVR:SOT95P280X145-6N</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lmr54410.pdf</datasheet>
+      <description>Switching Voltage Regulators SIMPLE SWITCHER power converter 4.5-V to 36-V, 1-A, synchronous buck with 40-uA IQ</description>
+      <fields>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">595-LMR54410DBVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR54410DBVR?qs=Rp5uXu7WBW%2F5%2F3leeK%252BgqA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LMR54410DBVR</field>
+        <field name="Footprint">LMR54410DBVR:SOT95P280X145-6N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmr54410.pdf</field>
+        <field name="Description">Switching Voltage Regulators SIMPLE SWITCHER power converter 4.5-V to 36-V, 1-A, synchronous buck with 40-uA IQ</field>
+      </fields>
+      <libsource lib="LMR54410DBVR" part="LMR54410DBVR" description="Switching Voltage Regulators SIMPLE SWITCHER power converter 4.5-V to 36-V, 1-A, synchronous buck with 40-uA IQ"/>
+      <property name="Height" value="1.45"/>
+      <property name="Mouser Part Number" value="595-LMR54410DBVR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR54410DBVR?qs=Rp5uXu7WBW%2F5%2F3leeK%252BgqA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="LMR54410DBVR"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1fbfad4-8b8f-4b61-8667-91d632a8cef6</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>ESP32-S3-WROOM-1-N16R8</value>
+      <footprint>MP3_Player_Custom_Footprints:ESP32S3WROOM1N8R2</footprint>
+      <fields>
+        <field name="MF">Espressif Systems</field>
+        <field name="DESCRIPTION">SMD MODULE, ESP32-S3R8 WITH 3.3V</field>
+        <field name="Package">NON STANDARD Espressif Systems</field>
+        <field name="SUPPLIER_PART_NUMBER">1965-ESP32-S3-WROOM-1-N16R8CT-ND</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N16R8/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="VALUE">ESP32-S3-WROOM-1-N16R8</field>
+        <field name="SUPPLIER">Digikey</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N16R8/Espressif+Systems/view-part/?ref=snap</field>
+        <field name="MP">ESP32-S3-WROOM-1-N16R8</field>
+        <field name="FOOTPRINT">SMD</field>
+        <field name="Description_1">
+                        
+                            Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount
+                        
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER_PART_NUMBER">ESP32-S3-WROOM-1-N16R8</field>
+        <field name="Footprint">MP3_Player_Custom_Footprints:ESP32S3WROOM1N8R2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ESP32-S3-WROOM-1-N16R8" part="ESP32-S3-WROOM-1-N16R8" description="SMD MODULE, ESP32-S3R8 WITH 3.3V"/>
+      <property name="MF" value="Espressif Systems"/>
+      <property name="DESCRIPTION" value="SMD MODULE, ESP32-S3R8 WITH 3.3V"/>
+      <property name="Package" value="NON STANDARD Espressif Systems"/>
+      <property name="SUPPLIER_PART_NUMBER" value="1965-ESP32-S3-WROOM-1-N16R8CT-ND"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N16R8/Espressif+Systems/view-part/?ref=eda"/>
+      <property name="VALUE" value="ESP32-S3-WROOM-1-N16R8"/>
+      <property name="SUPPLIER" value="Digikey"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N16R8/Espressif+Systems/view-part/?ref=snap"/>
+      <property name="MP" value="ESP32-S3-WROOM-1-N16R8"/>
+      <property name="FOOTPRINT" value="SMD"/>
+      <property name="Description_1" value="&#xA;                        &#xA;                            Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount&#xA;                        &#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER_PART_NUMBER" value="ESP32-S3-WROOM-1-N16R8"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="PCB ESP32 S3 Wroom 1 n16r8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>214ce4f3-60bd-48e8-abc9-4a4217d5a7c4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Audio" part="AudioJack3_SwitchT">
+      <description>Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack3_SwitchT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)</field>
+      </fields>
+      <pins>
+        <pin num="R" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="RotaryEncoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">RotaryEncoder_Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Rotary encoder, dual channel, incremental quadrate outputs, with switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-S3-WROOM-1-N16R8" part="ESP32-S3-WROOM-1-N16R8">
+      <description>SMD MODULE, ESP32-S3R8 WITH 3.3V</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ESP32-S3-WROOM-1-N16R8</field>
+        <field name="Footprint">SMD</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMD MODULE, ESP32-S3R8 WITH 3.3V</field>
+        <field name="MF">Espressif Systems</field>
+        <field name="Package">NON STANDARD Espressif Systems</field>
+        <field name="SUPPLIER_PART_NUMBER">1965-ESP32-S3-WROOM-1-N16R8CT-ND</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N16R8/Espressif+Systems/view-part/?ref=eda</field>
+        <field name="SUPPLIER">Digikey</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP32-S3-WROOM-1-N16R8/Espressif+Systems/view-part/?ref=snap</field>
+        <field name="MP">ESP32-S3-WROOM-1-N16R8</field>
+        <field name="Description_1">
+                        
+                            Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.4GHz PCB Trace Surface Mount
+                        
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER_PART_NUMBER">ESP32-S3-WROOM-1-N16R8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="bidirectional"/>
+        <pin num="2" name="3V3" type="bidirectional"/>
+        <pin num="3" name="EN" type="bidirectional"/>
+        <pin num="4" name="IO4" type="bidirectional"/>
+        <pin num="5" name="IO5" type="bidirectional"/>
+        <pin num="6" name="IO6" type="bidirectional"/>
+        <pin num="7" name="IO7" type="bidirectional"/>
+        <pin num="8" name="IO15" type="bidirectional"/>
+        <pin num="9" name="IO16" type="bidirectional"/>
+        <pin num="10" name="IO17" type="bidirectional"/>
+        <pin num="11" name="IO18" type="bidirectional"/>
+        <pin num="12" name="IO8" type="bidirectional"/>
+        <pin num="13" name="IO19" type="bidirectional"/>
+        <pin num="14" name="IO20" type="bidirectional"/>
+        <pin num="15" name="IO3" type="bidirectional"/>
+        <pin num="16" name="IO46" type="bidirectional"/>
+        <pin num="17" name="IO9" type="bidirectional"/>
+        <pin num="18" name="IO10" type="bidirectional"/>
+        <pin num="19" name="IO11" type="bidirectional"/>
+        <pin num="20" name="IO12" type="bidirectional"/>
+        <pin num="21" name="IO13" type="bidirectional"/>
+        <pin num="22" name="IO14" type="bidirectional"/>
+        <pin num="23" name="IO21" type="bidirectional"/>
+        <pin num="24" name="IO47" type="bidirectional"/>
+        <pin num="25" name="IO48" type="bidirectional"/>
+        <pin num="26" name="IO45" type="bidirectional"/>
+        <pin num="27" name="IO0" type="bidirectional"/>
+        <pin num="28" name="IO35" type="bidirectional"/>
+        <pin num="29" name="IO36" type="bidirectional"/>
+        <pin num="30" name="IO37" type="bidirectional"/>
+        <pin num="31" name="IO38" type="bidirectional"/>
+        <pin num="32" name="IO39" type="bidirectional"/>
+        <pin num="33" name="IO40" type="bidirectional"/>
+        <pin num="34" name="IO41" type="bidirectional"/>
+        <pin num="35" name="IO42" type="bidirectional"/>
+        <pin num="36" name="RXD0" type="bidirectional"/>
+        <pin num="37" name="TXD0" type="bidirectional"/>
+        <pin num="38" name="IO2" type="bidirectional"/>
+        <pin num="39" name="IO1" type="bidirectional"/>
+        <pin num="40" name="GND" type="bidirectional"/>
+        <pin num="41" name="GND" type="bidirectional"/>
+        <pin num="42" name="GND" type="bidirectional"/>
+        <pin num="43" name="GND" type="bidirectional"/>
+        <pin num="44" name="GND" type="bidirectional"/>
+        <pin num="45" name="GND" type="bidirectional"/>
+        <pin num="46" name="GND" type="bidirectional"/>
+        <pin num="47" name="GND" type="bidirectional"/>
+        <pin num="48" name="GND" type="bidirectional"/>
+        <pin num="49" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="LMR54410DBVR" part="LMR54410DBVR">
+      <description>Switching Voltage Regulators SIMPLE SWITCHER power converter 4.5-V to 36-V, 1-A, synchronous buck with 40-uA IQ</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lmr54410.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR54410DBVR</field>
+        <field name="Footprint">LMR54410DBVR:SOT95P280X145-6N</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lmr54410.pdf</field>
+        <field name="Description">Switching Voltage Regulators SIMPLE SWITCHER power converter 4.5-V to 36-V, 1-A, synchronous buck with 40-uA IQ</field>
+        <field name="Height">1.45</field>
+        <field name="Mouser Part Number">595-LMR54410DBVR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LMR54410DBVR?qs=Rp5uXu7WBW%2F5%2F3leeK%252BgqA%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">LMR54410DBVR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="input"/>
+        <pin num="6" name="SW" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MP3_Player_Custom_Parts" part="2.4'_TFT_SPI_ILI9341_WITH_SD_CARD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">MP3_Player_Custom_Footprints:2.4'_TFT_SPI_ILI9341_WITH_SD_CARD</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="CS" name="CS" type="input"/>
+        <pin num="DC" name="DC" type="input"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="LED" name="LED" type="input"/>
+        <pin num="RESET" name="RESET" type="input"/>
+        <pin num="SCK" name="SCK" type="input"/>
+        <pin num="SDI(MOSI)" name="SDI(MOSI)" type="input"/>
+        <pin num="SDO(MISO)" name="SDO(MISO)" type="output"/>
+        <pin num="SD_CS" name="SD_CS" type="input"/>
+        <pin num="SD_MISO" name="SD_MISO" type="output"/>
+        <pin num="SD_MOSI" name="SD_MOSI" type="input"/>
+        <pin num="SD_SCK" name="SD_SCK" type="input"/>
+        <pin num="T_CLK" name="T_CLK" type="input"/>
+        <pin num="T_CS" name="T_CS" type="input"/>
+        <pin num="T_DIN" name="T_DIN" type="input"/>
+        <pin num="T_DO" name="T_DO" type="output"/>
+        <pin num="T_IRQ" name="T_IRQ" type="input"/>
+        <pin num="Vcc" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MP3_Player_Custom_Parts" part="Adafruit_MAX98357">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="+" name="SPKR+" type="output"/>
+        <pin num="-" name="SPKR-" type="output"/>
+        <pin num="BCLK" name="BCLK" type="input"/>
+        <pin num="DIN" name="DIN" type="input"/>
+        <pin num="GAIN" name="Gain" type="input"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="LRC" name="LRC" type="input"/>
+        <pin num="SD" name="SD" type="input"/>
+        <pin num="VIN" name="Vin" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MP3_Player_Custom_Parts" part="UART_FTDI">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint">ESP32 camera and friends:UART_FTDI</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="5V" name="5V" type="power_in"/>
+        <pin num="CTS" name="CTS" type="bidirectional"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="RTS" name="RTS" type="bidirectional"/>
+        <pin num="RXD" name="RXD" type="bidirectional"/>
+        <pin num="TXD" name="TXD" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_DC">
+      <description>DC Motor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_DC</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">DC Motor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Switch, single pole double throw</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Single Pole Single Throw (SPST) switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BS170">
+      <description>0.5A Id, 60V Vds, N-Channel MOSFET, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BS170-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BS170</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BS170-D.PDF</field>
+        <field name="Description">0.5A Id, 60V Vds, N-Channel MOSFET, TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Audio">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Connector_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP32-S3-WROOM-1-N16R8">
+      <uri>C:\Users\swimn\OneDrive\Documents\College\IEEE\MP3 Player\2024-IEEE-MP3-Project\Rev 3\PCB ESP32 S3 Wroom 1 n16r8/ESP32-S3-WROOM-1-N16R8.kicad_sym</uri>
+    </library>
+    <library logical="LMR54410DBVR">
+      <uri>C:\Users\swimn\OneDrive\Documents\College\IEEE\MP3 Player\2024-IEEE-MP3-Project\Rev 3\PCB ESP32 S3 Wroom 1 n16r8/LMR54410DBVR/LMR54410DBVR.kicad_sym</uri>
+    </library>
+    <library logical="MP3_Player_Custom_Parts">
+      <uri>C:\Users\swimn\OneDrive\Documents\College\IEEE\MP3 Player\2024-IEEE-MP3-Project\Rev 3\PCB ESP32 S3 Wroom 1 n16r8/MP3_Player_Custom_Parts.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\8.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V">
+      <node ref="1" pin="5V" pinfunction="5V" pintype="power_in"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="2" name="/BACK_BUTTON">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="X1" pin="24" pinfunction="IO47" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/BOOT_SEL">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X1" pin="27" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/DAC_BCLK">
+      <node ref="L_SPKR1" pin="BCLK" pinfunction="BCLK" pintype="input"/>
+      <node ref="RSPKR1" pin="BCLK" pinfunction="BCLK" pintype="input"/>
+      <node ref="X1" pin="5" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/DAC_DIN">
+      <node ref="L_SPKR1" pin="DIN" pinfunction="DIN" pintype="input"/>
+      <node ref="RSPKR1" pin="DIN" pinfunction="DIN" pintype="input"/>
+      <node ref="X1" pin="4" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/DAC_LRC">
+      <node ref="L_SPKR1" pin="LRC" pinfunction="LRC" pintype="input"/>
+      <node ref="RSPKR1" pin="LRC" pinfunction="LRC" pintype="input"/>
+      <node ref="X1" pin="6" pinfunction="IO6" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/Detect_Jack">
+      <node ref="J1" pin="TN" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="X1" pin="15" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Gain">
+      <node ref="L_SPKR1" pin="GAIN" pinfunction="Gain" pintype="input"/>
+      <node ref="RSPKR1" pin="GAIN" pinfunction="Gain" pintype="input"/>
+      <node ref="X1" pin="8" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/HOME_BUTTON">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="X1" pin="26" pinfunction="IO45" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/L_Chanel_Select">
+      <node ref="L_SPKR1" pin="SD" pinfunction="SD" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/MENU_BUTTON">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="X1" pin="25" pinfunction="IO48" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Motor_Driver">
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="X1" pin="11" pinfunction="IO18" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/PLAY{slash}PAUSE BUTTON">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="X1" pin="16" pinfunction="IO46" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/RESET">
+      <node ref="1" pin="RTS" pinfunction="RTS" pintype="bidirectional"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="Screen&amp;SDCardReader1" pin="RESET" pinfunction="RESET" pintype="input"/>
+      <node ref="X1" pin="3" pinfunction="EN" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/RXD">
+      <node ref="1" pin="RXD" pinfunction="RXD" pintype="bidirectional"/>
+      <node ref="X1" pin="36" pinfunction="RXD0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/R_Chanel_Select">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="RSPKR1" pin="SD" pinfunction="SD" pintype="input"/>
+    </net>
+    <net code="17" name="/SCREEN_BRIGHTNESS">
+      <node ref="Screen&amp;SDCardReader1" pin="LED" pinfunction="LED" pintype="input"/>
+      <node ref="X1" pin="10" pinfunction="IO17" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SD_CS">
+      <node ref="Screen&amp;SDCardReader1" pin="SD_CS" pinfunction="SD_CS" pintype="input"/>
+      <node ref="X1" pin="38" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/SPI_MISO">
+      <node ref="Screen&amp;SDCardReader1" pin="SD_MISO" pinfunction="SD_MISO" pintype="output"/>
+      <node ref="X1" pin="21" pinfunction="IO13" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/SPI_MOSI">
+      <node ref="Screen&amp;SDCardReader1" pin="SDI(MOSI)" pinfunction="SDI(MOSI)" pintype="input"/>
+      <node ref="Screen&amp;SDCardReader1" pin="SD_MOSI" pinfunction="SD_MOSI" pintype="input"/>
+      <node ref="X1" pin="19" pinfunction="IO11" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/SPI_SCK">
+      <node ref="Screen&amp;SDCardReader1" pin="SCK" pinfunction="SCK" pintype="input"/>
+      <node ref="Screen&amp;SDCardReader1" pin="SD_SCK" pinfunction="SD_SCK" pintype="input"/>
+      <node ref="X1" pin="20" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/TFT_CS">
+      <node ref="Screen&amp;SDCardReader1" pin="CS" pinfunction="CS" pintype="input"/>
+      <node ref="X1" pin="39" pinfunction="IO1" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/TFT_DC">
+      <node ref="Screen&amp;SDCardReader1" pin="DC" pinfunction="DC" pintype="input"/>
+      <node ref="X1" pin="17" pinfunction="IO9" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/TXD">
+      <node ref="1" pin="TXD" pinfunction="TXD" pintype="bidirectional"/>
+      <node ref="X1" pin="37" pinfunction="TXD0" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/USB_D+">
+      <node ref="X1" pin="14" pinfunction="IO20" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/USB_D-">
+      <node ref="X1" pin="13" pinfunction="IO19" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/VDD">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L_SPKR1" pin="VIN" pinfunction="Vin" pintype="power_in"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="RSPKR1" pin="VIN" pinfunction="Vin" pintype="power_in"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Screen&amp;SDCardReader1" pin="Vcc" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="X1" pin="2" pinfunction="3V3" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L_SPKR1" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="Primary Rotary Encoder1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="Primary Rotary Encoder1" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="RSPKR1" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Screen&amp;SDCardReader1" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="40" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="41" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="42" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="43" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="44" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="45" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="46" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="47" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="48" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="X1" pin="49" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(L_SPKR1-SPKR+)">
+      <node ref="J1" pin="T" pintype="passive"/>
+      <node ref="L_SPKR1" pin="+" pinfunction="SPKR+" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(L_SPKR1-SPKR-)">
+      <node ref="J1" pin="S" pintype="passive"/>
+      <node ref="L_SPKR1" pin="-" pinfunction="SPKR-" pintype="output"/>
+      <node ref="RSPKR1" pin="-" pinfunction="SPKR-" pintype="output"/>
+    </net>
+    <net code="32" name="Net-(Q1-S)">
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(RSPKR1-SPKR+)">
+      <node ref="J1" pin="R" pintype="passive"/>
+      <node ref="RSPKR1" pin="+" pinfunction="SPKR+" pintype="output"/>
+    </net>
+    <net code="34" name="Net-(SW4-B)">
+      <node ref="1" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="SW4" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(SW6-B)">
+      <node ref="SW6" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="X1" pin="12" pinfunction="IO8" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(U1-CB)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="CB" pintype="power_in"/>
+    </net>
+    <net code="37" name="Net-(U1-FB)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(U1-SW)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="39" name="Net-(X1-IO7)">
+      <node ref="Primary Rotary Encoder1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="X1" pin="7" pinfunction="IO7" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(X1-IO16)">
+      <node ref="Primary Rotary Encoder1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="X1" pin="9" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(X1-IO21)">
+      <node ref="Primary Rotary Encoder1" pin="S1" pinfunction="S1" pintype="passive"/>
+      <node ref="X1" pin="23" pinfunction="IO21" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(1-PadCTS)">
+      <node ref="1" pin="CTS" pinfunction="CTS" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(SW4-C-Pad3)">
+      <node ref="SW4" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="44" name="unconnected-(Screen&amp;SDCardReader1-PadSDO(MISO))">
+      <node ref="Screen&amp;SDCardReader1" pin="SDO(MISO)" pinfunction="SDO(MISO)" pintype="output"/>
+    </net>
+    <net code="45" name="unconnected-(Screen&amp;SDCardReader1-PadT_CLK)">
+      <node ref="Screen&amp;SDCardReader1" pin="T_CLK" pinfunction="T_CLK" pintype="input"/>
+    </net>
+    <net code="46" name="unconnected-(Screen&amp;SDCardReader1-PadT_CS)">
+      <node ref="Screen&amp;SDCardReader1" pin="T_CS" pinfunction="T_CS" pintype="input"/>
+    </net>
+    <net code="47" name="unconnected-(Screen&amp;SDCardReader1-PadT_DIN)">
+      <node ref="Screen&amp;SDCardReader1" pin="T_DIN" pinfunction="T_DIN" pintype="input"/>
+    </net>
+    <net code="48" name="unconnected-(Screen&amp;SDCardReader1-PadT_DO)">
+      <node ref="Screen&amp;SDCardReader1" pin="T_DO" pinfunction="T_DO" pintype="output"/>
+    </net>
+    <net code="49" name="unconnected-(Screen&amp;SDCardReader1-PadT_IRQ)">
+      <node ref="Screen&amp;SDCardReader1" pin="T_IRQ" pinfunction="T_IRQ" pintype="input"/>
+    </net>
+    <net code="50" name="unconnected-(X1-IO10-Pad18)">
+      <node ref="X1" pin="18" pinfunction="IO10" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="unconnected-(X1-IO14-Pad22)">
+      <node ref="X1" pin="22" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(X1-IO35-Pad28)">
+      <node ref="X1" pin="28" pinfunction="IO35" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(X1-IO36-Pad29)">
+      <node ref="X1" pin="29" pinfunction="IO36" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(X1-IO37-Pad30)">
+      <node ref="X1" pin="30" pinfunction="IO37" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(X1-IO38-Pad31)">
+      <node ref="X1" pin="31" pinfunction="IO38" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(X1-IO39-Pad32)">
+      <node ref="X1" pin="32" pinfunction="IO39" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(X1-IO40-Pad33)">
+      <node ref="X1" pin="33" pinfunction="IO40" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="unconnected-(X1-IO41-Pad34)">
+      <node ref="X1" pin="34" pinfunction="IO41" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(X1-IO42-Pad35)">
+      <node ref="X1" pin="35" pinfunction="IO42" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

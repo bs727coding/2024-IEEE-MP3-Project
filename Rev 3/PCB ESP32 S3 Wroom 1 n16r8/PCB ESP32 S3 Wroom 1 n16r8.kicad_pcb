@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "CAM Files/")
 		)
 	)
 	(net 0 "")
@@ -8518,7 +8518,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 1.05 360)
+			(at 0 1.05 0)
 			(layer "B.SilkS")
 			(uuid "dbdbc7a0-80e0-4311-b8aa-e768c891fbff")
 			(effects
@@ -8530,7 +8530,7 @@
 			)
 		)
 		(property "Value" ".1 uF"
-			(at 0 -1.05 360)
+			(at 0 -1.05 0)
 			(layer "B.Fab")
 			(uuid "66015c86-1c82-40fb-9bb6-457315e96a98")
 			(effects
@@ -8669,7 +8669,7 @@
 			(uuid "8c980e8a-32a0-42f6-b2bd-2a0b7deb36d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.68 360)
+			(at 0 0.68 0)
 			(layer "B.Fab")
 			(uuid "cc7dfa72-087b-4236-a2d0-9d99386b2a6e")
 			(effects
@@ -11373,7 +11373,7 @@
 		(descr "Resistor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 1 360)
+			(at 0 1 0)
 			(layer "B.SilkS")
 			(uuid "bf11e38d-541e-40ef-b798-863d33389b75")
 			(effects
@@ -11385,7 +11385,7 @@
 			)
 		)
 		(property "Value" "69.8K"
-			(at 0 -1 360)
+			(at 0 -1 0)
 			(layer "B.Fab")
 			(uuid "151e7172-a8d7-4028-a889-4db2f23b0c4e")
 			(effects
@@ -11524,7 +11524,7 @@
 			(uuid "28b8d768-34b0-4b97-a07b-751ccf20657a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.62 360)
+			(at 0 0.62 0)
 			(layer "B.Fab")
 			(uuid "8a34ab9a-2d4c-44a9-8c31-ec040058fe30")
 			(effects
@@ -13539,7 +13539,7 @@
 		(descr "Resistor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 1 360)
+			(at 0 1 0)
 			(layer "B.SilkS")
 			(uuid "a62cfc54-fa2a-4275-845f-68d59cb999f4")
 			(effects
@@ -13551,7 +13551,7 @@
 			)
 		)
 		(property "Value" "22.1K"
-			(at 0 -1 360)
+			(at 0 -1 0)
 			(layer "B.Fab")
 			(uuid "5e193315-b084-4011-a929-9a6c8009b913")
 			(effects
@@ -13690,7 +13690,7 @@
 			(uuid "121ce7cf-ce64-47b7-ae72-08afda0765e3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0.62 360)
+			(at 0 0.62 0)
 			(layer "B.Fab")
 			(uuid "486178e9-9712-46bc-b8bc-2e138b2b807e")
 			(effects
