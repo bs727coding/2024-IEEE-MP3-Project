@@ -1,11 +1,11 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*%
-%TF.CreationDate,2025-02-20T10:46:29-07:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*%
+%TF.CreationDate,2025-02-21T10:23:32-07:00*%
 %TF.ProjectId,PCB ESP32 S3 Wroom 1 n16r8,50434220-4553-4503-9332-205333205772,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.6) date 2025-02-20 10:46:29*
+G04 Created by KiCad (PCBNEW 8.0.4) date 2025-02-21 10:23:32*
 %MOMM*%
 %LPD*%
 G01*
