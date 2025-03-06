@@ -478,7 +478,7 @@
       "idf": "",
       "netlist": "",
       "plot": "CAM Files/",
-      "pos_files": "./",
+      "pos_files": "Position Files/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

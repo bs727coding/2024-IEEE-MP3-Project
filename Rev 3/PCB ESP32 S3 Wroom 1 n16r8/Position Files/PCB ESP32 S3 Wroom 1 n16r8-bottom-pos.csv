@@ -1,0 +1,21 @@
+Designator,Val,Package,MidX,MidY,Rotation,Layer
+1,~,UART_FTDI,87,-124.96,0,bottom
+C1,.1 uF,C_0603_1608Metric,73.5,-52.5,0,bottom
+C2,2.2 uF,C_0603_1608Metric,70.612,-56.515,90,bottom
+C3,10uF,C_0603_1608Metric,76,-51.68,90,bottom
+L1,15uH,L_Vishay_IFSC-1515AH_4x4x1.8mm,69,-52.5,-90,bottom
+Q1,BS170,TO-92_Inline,121.86,-63.73,-90,bottom
+R7,0-100Ω,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,120.5,-76.69,-90,bottom
+R8,10K,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,72.19,-79,0,bottom
+R9,10K,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,100.38,-79.5,0,bottom
+R10,10K,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,108.31,-83,180,bottom
+R11,10K,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,89,-95.31,90,bottom
+R12,100K,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,90.69,-79.5,0,bottom
+R13,10K,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,130,-50.19,-90,bottom
+R14,69.8K,R_01005_0402Metric_Pad0.57x0.30mm_HandSolder,78.75,-57.5,0,bottom
+R15,22.1K,R_01005_0402Metric_Pad0.57x0.30mm_HandSolder,78.25,-56.5,180,bottom
+SW4,Power,SW_Slide_SPDT_Angled_CK_OS102011MA1Q,80,-46.5,0,bottom
+SW6,Hold,SW_Slide_SPDT_Angled_CK_OS102011MA1Q,118,-46.5,0,bottom
+SW7,BOOT_MODE,SW_PUSH_6mm,69.25,-71.75,180,bottom
+U1,LMR54410DBVR,SOT95P280X145-6N,73.533,-55.372,180,bottom
+X1,ESP32-S3-WROOM-1-N16R8,ESP32S3WROOM1N8R2,101.5,-57.5,180,bottom

@@ -1,0 +1,17 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"D1","Flyback Diode","D_A-405_P7.62mm_Horizontal",120.500000,-87.690000,-90.000000,top
+"L_SPKR1","~","MAX98357 I2C Audio Driver",93.689000,-95.002500,90.000000,top
+"M1","Haptic Feedback","TerminalBlock_RND_205-00001_1x02_P5.00mm_Horizontal",129.000000,-89.000000,-90.000000,top
+"Primary Rotary Encoder1","RotaryEncoder_Switch","RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm",105.750000,-117.500000,180.000000,top
+"R1","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",109.690000,-113.000000,0.000000,top
+"R2","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",109.690000,-117.500000,0.000000,top
+"R3","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",86.000000,-115.000000,180.000000,top
+"R4","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",109.690000,-109.000000,0.000000,top
+"R5","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",109.880000,-121.500000,0.000000,top
+"R6","10K","R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal",86.120000,-119.000000,180.000000,top
+"RSPKR1","~","MAX98357 I2C Audio Driver",73.947500,-95.090000,90.000000,top
+"SW1","Home","Kailh_socket_PG1350",69.000000,-106.000000,0.000000,top
+"SW2","Back","Kailh_socket_PG1350",69.000000,-124.000000,0.000000,top
+"SW3","Play/Pause","Kailh_socket_PG1350",129.000000,-106.000000,0.000000,top
+"SW5","Menu","Kailh_socket_PG1350",129.000000,-124.000000,0.000000,top
+"Screen&SDCardReader1","~","2.4'_TFT_SPI_ILI9341_WITH_SD_CARD",97.400000,-64.310000,180.000000,top
